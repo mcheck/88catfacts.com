@@ -12,7 +12,7 @@ $footer_text   = get_theme_mod( 'footer-text', false );
  *
  * @param bool    $show    Whether or not to show the footer credit.
  */
-$footer_credit = apply_filters( 'make_show_footer_credit', true );
+$footer_credit = apply_filters( 'make_show_footer_credit', false );
 ?>
 
 <?php if ( $footer_text || ttfmake_is_preview() ) : ?>
